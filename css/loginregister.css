@@ -1,0 +1,74 @@
+/*MODAL - FORMULARIO: REGISTRARSE Y ACCEDER*/
+
+#modal::backdrop {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+.formulario {
+    width: 50ch; /*Esto me deja responsive el contenido dentro del modal. No pongo un height porque sino se me rompe todo*/
+    margin: auto; /* Esto me lo centra*/
+    padding: 20px; /*Mejora el espacio en el contenido de los textos*/
+    border: 1px solid #ccc;
+    border-radius: 2%;
+    background-color: #ffffff;
+    font-size: 80%; /* Esto modifica el tamaño del contenido en el modal*/
+}
+
+.formulario form { /* Para que todo el contenido de los textos este ubicado de forma vertical*/
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario input[type="submit"] { /* modifica la teclita de "Acceder" y "solicitar cuenta"*/
+    background-color: #e44d86;
+    height: 5ch;
+    width: 100%;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover { /* Le pone un efecto a las teclas de "Acceder" y "Solicitar Cuenta"*/
+    transform: scale(1.03);
+    background-color: #963c53;
+}
+
+.formulario-inferior{ /* Modifica las teclas de "Cerrar", "Acceder" y "Registrarse"*/
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton-modal { /* Para el diseño de las teclas "Cerrar", "Acceder" y "Registrarse"*/
+    background-color: #ffffff;
+    color: #292929; 
+    border: 1px solid #cccccc; 
+    padding: 5px 14px;
+    cursor: pointer;
+}
+
+.boton-modal:hover { /* Efecto a las teclas "Cerrar", "Acceder" y "Registrarse"*/
+    background-color: #eeeeee; /*color de la cajita cuando paso por arriba*/
+    border-color: #c5c5c5; /* cambia color del borde */
+}
+
+#modalRegistro::backdrop {
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+
+
+/* ESTO ES DUDOSO, LO PUEDO ELIMINAR Y NO PASA NADFA*/
+
+.registrarse-acceder { /*BOTON "CERRAR"*/ 
+    background-color: #ffffff;
+    color: #292929; 
+    border: 1px solid #cccccc; 
+    padding: 5px 14px;
+    cursor: pointer;
+}
+
+.registrarse-acceder{
+    background-color: #eeeeee; /*color de la cajita cuando paso por arriba*/
+    border-color: #c5c5c5; /* Cambiar el color del borde al pasar el ratón */
+}
