@@ -20,7 +20,7 @@
 }
 
 .formulario input[type="submit"] { /* modifica la teclita de "Acceder" y "solicitar cuenta"*/
-    background-color: #e44d86;
+    background-color: #da7151;
     height: 5ch;
     width: 100%;
     color: white;
@@ -31,7 +31,7 @@
 
 input[type="submit"]:hover { /* Le pone un efecto a las teclas de "Acceder" y "Solicitar Cuenta"*/
     transform: scale(1.03);
-    background-color: #963c53;
+    background-color: #e7704b;
 }
 
 .formulario-inferior{ /* Modifica las teclas de "Cerrar", "Acceder" y "Registrarse"*/
