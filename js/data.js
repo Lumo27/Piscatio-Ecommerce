@@ -98,6 +98,24 @@ document.addEventListener("DOMContentLoaded", function() {
     // Insertamos el HTML generado en el contenedor
     productosGrilla.innerHTML += productoCard;
   });
+  // Seleccionamos todas las tarjetas de producto
+  const productoCards = productosGrilla.getElementsByClassName("card");
+
+  // Agregamos los eventos de hover a cada tarjeta
+  for (let i = 0; i < productoCards.length; i++) {
+    const card = productoCards[i];
+
+    card.addEventListener("mouseenter", function() {
+      card.style.transform = "scale(1.05)";
+      card.style.boxShadow = "0 4px 20px rgba(0, 0, 0, 0.2)";
+    });
+
+    card.addEventListener("mouseleave", function() {
+      card.style.transform = "scale(1)";
+      card.style.boxShadow = "none";
+    });
+  }
+
 });
 const categorias = [
   { nombre: "Pinceles", imagen: "assets/imagenes/categorias/Rectangle-9.png" },
@@ -114,7 +132,7 @@ if (categoriasDestacadas) {
 
   const titulo = document.createElement('h2');
   titulo.classList.add('text-center', 'mb-4');
-  titulo.style.setProperty('color', 'black', 'important');
+  titulo.style.setProperty('color', 'white', 'important');
   titulo.textContent = 'Categorías destacadas';
   contenedor.appendChild(titulo);
 
@@ -151,6 +169,17 @@ if (categoriasDestacadas) {
     card.appendChild(cardBody);
     col.appendChild(card);
     row.appendChild(col);
+
+    // Agregamos los eventos de hover a la tarjeta
+    card.addEventListener("mouseenter", function() {
+      card.style.transform = "scale(1.05)";
+      card.style.boxShadow = "0 4px 20px rgba(0, 0, 0, 0.2)";
+    });
+
+    card.addEventListener("mouseleave", function() {
+      card.style.transform = "scale(1)";
+      card.style.boxShadow = "none";
+    });
   });
 
   // Estilos de fondo aplicados al contenedor
