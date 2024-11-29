@@ -1,0 +1,92 @@
+[
+    {
+      "id": 1,
+      "name": "Acrylic Paint Set",
+      "stock": 50,
+      "category": "Paints",
+      "price": 1200.00,
+      "description": "A set of 12 acrylic paints, high quality, vibrant colors for professional and amateur artists.",
+      "image_url": "assets/images/acrylic_paint_set.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Watercolor Brush Set",
+      "stock": 30,
+      "category": "Brushes",
+      "price": 850.00,
+      "description": "A set of 6 high-quality watercolor brushes, suitable for detailed and broad strokes.",
+      "image_url": "assets/images/watercolor_brush_set.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Canvas Board Pack",
+      "stock": 100,
+      "category": "Canvas",
+      "price": 300.00,
+      "description": "A pack of 5 canvas boards, perfect for oil, acrylic, and watercolor painting.",
+      "image_url": "assets/images/canvas_board_pack.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Oil Painting Set",
+      "stock": 40,
+      "category": "Paints",
+      "price": 1500.00,
+      "description": "A complete oil painting set with 12 colors, brushes, and a palette.",
+      "image_url": "assets/images/oil_painting_set.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Watercolor Paper Pad",
+      "stock": 60,
+      "category": "Paper",
+      "price": 450.00,
+      "description": "A pad of 10 sheets of high-quality watercolor paper, ideal for detailed artwork.",
+      "image_url": "assets/images/watercolor_paper_pad.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Drawing Pencils Set",
+      "stock": 80,
+      "category": "Drawing",
+      "price": 350.00,
+      "description": "A set of 12 drawing pencils ranging from soft to hard for various shading techniques.",
+      "image_url": "assets/images/drawing_pencils_set.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Easel Stand",
+      "stock": 25,
+      "category": "Tools",
+      "price": 2200.00,
+      "description": "A sturdy easel stand, perfect for painting in the studio or outdoors.",
+      "image_url": "assets/images/easel_stand.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Charcoal Drawing Set",
+      "stock": 15,
+      "category": "Drawing",
+      "price": 500.00,
+      "description": "A charcoal set with different thicknesses, great for sketching and shading.",
+      "image_url": "assets/images/charcoal_drawing_set.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Oil Paintbrush Set",
+      "stock": 60,
+      "category": "Brushes",
+      "price": 650.00,
+      "description": "A set of 5 brushes for oil painting, high-quality bristles for fine detailing.",
+      "image_url": "assets/images/oil_paintbrush_set.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Palette Knife Set",
+      "stock": 45,
+      "category": "Tools",
+      "price": 450.00,
+      "description": "A set of 4 palette knives, perfect for mixing paint and creating texture on canvas.",
+      "image_url": "assets/images/palette_knife_set.jpg"
+    }
+  ]

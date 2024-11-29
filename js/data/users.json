@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "username": "juanperez",
+      "password": "password123",
+      "email": "juanperez@email.com",
+      "name": "Juan",
+      "surname": "Pérez",
+      "number": "+54 1122445533",
+      "role": "user",
+      "birthday": "1990-05-15",
+      "address": "Calle Ficticia 123, Buenos Aires, Argentina"
+    },
+    {
+      "id": 2,
+      "username": "mariagonzalez",
+      "password": "password321",
+      "email": "mariagonzalez@email.com",
+      "name": "María",
+      "surname": "González",
+      "number": "+54 1122334455",
+      "role": "user",
+      "birthday": "1985-03-20",
+      "address": "Avenida Siempre Viva 456, Córdoba, Argentina"
+    },
+    {
+      "id": 3,
+      "username": "pedrofernandez",
+      "password": "pedro1234",
+      "email": "pedrofernandez@email.com",
+      "name": "Pedro",
+      "surname": "Fernández",
+      "number": "+54 1155667788",
+      "role": "admin",
+      "birthday": "1982-07-10",
+      "address": "Calle 9 de Julio 789, Rosario, Argentina"
+    },
+    {
+      "id": 4,
+      "username": "sofiarodriguez",
+      "password": "sofia9876",
+      "email": "sofiarodriguez@email.com",
+      "name": "Sofía",
+      "surname": "Rodríguez",
+      "number": "+54 1166778899",
+      "role": "user",
+      "birthday": "1995-11-25",
+      "address": "Calle San Martín 1234, Mendoza, Argentina"
+    },
+    {
+      "id": 5,
+      "username": "martinlopez",
+      "password": "martin5678",
+      "email": "martinlopez@email.com",
+      "name": "Martín",
+      "surname": "López",
+      "number": "+54 1133445566",
+      "role": "admin",
+      "birthday": "1993-02-15",
+      "address": "Avenida Libertador 5678, Buenos Aires, Argentina"
+    },
+    {
+      "id": 6,
+      "username": "lilianavaldez",
+      "password": "liliana1234",
+      "email": "lilianavaldez@email.com",
+      "name": "Liliana",
+      "surname": "Valdez",
+      "number": "+54 1144556677",
+      "role": "user",
+      "birthday": "1991-08-02",
+      "address": "Calle Rivadavia 234, La Plata, Argentina"
+    },
+    {
+      "id": 7,
+      "username": "carlosmendez",
+      "password": "carlos8901",
+      "email": "carlosmendez@email.com",
+      "name": "Carlos",
+      "surname": "Méndez",
+      "number": "+54 1166778890",
+      "role": "user",
+      "birthday": "1988-01-30",
+      "address": "Calle San Juan 567, Tucumán, Argentina"
+    },
+    {
+      "id": 8,
+      "username": "lauraaraujo",
+      "password": "laura9876",
+      "email": "lauraaraujo@email.com",
+      "name": "Laura",
+      "surname": "Araujo",
+      "number": "+54 1133447788",
+      "role": "user",
+      "birthday": "1994-04-19",
+      "address": "Calle Pueyrredón 890, Mar del Plata, Argentina"
+    },
+    {
+      "id": 9,
+      "username": "gustavomorales",
+      "password": "gustavo6543",
+      "email": "gustavomorales@email.com",
+      "name": "Gustavo",
+      "surname": "Morales",
+      "number": "+54 1144778899",
+      "role": "admin",
+      "birthday": "1980-09-25",
+      "address": "Avenida Belgrano 2345, Neuquén, Argentina"
+    },
+    {
+      "id": 10,
+      "username": "patriciarodriguez",
+      "password": "patricia5432",
+      "email": "patriciarodriguez@email.com",
+      "name": "Patricia",
+      "surname": "Rodríguez",
+      "number": "+54 1133998877",
+      "role": "user",
+      "birthday": "1992-06-18",
+      "address": "Calle Florida 456, Salta, Argentina"
+    }
+  ]
+  
