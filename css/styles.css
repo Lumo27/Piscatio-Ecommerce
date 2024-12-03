@@ -44,5 +44,27 @@ h2{
   background-color: #fff;
   margin: 10px;
 }
+/* Las siguientes dos clases, son para la UX de password */
+.hider {
+  display: flex;
+  align-items: center; /* Centra verticalmente el botón respecto al input */
+  position: relative;
+}
+
+.toggle-password {
+  margin-left: 10px; /* Espacio entre el input y el botón */
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 2rem;
+  color: #007bff;
+  text-decoration: underline;
+}
+
+/* Estilo para que el SWAL se muestre por delante del modal */
+.custom-swal {
+  z-index: 9999 !important;  /* Asegúrate de usar !important si es necesario */
+}
+
 
 

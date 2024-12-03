@@ -1,7 +1,11 @@
 /*MODAL - FORMULARIO: REGISTRARSE Y ACCEDER*/
 
+#modal {
+    z-index: 1000; /* Z-index más bajo que el de SweetAlert */
+}
 #modal::backdrop {
     background-color: rgba(0, 0, 0, 0.55);
+    z-index: 999;
 }
 
 .formulario {
@@ -12,6 +16,7 @@
     border-radius: 2%;
     background-color: #ffffff;
     font-size: 80%; /* Esto modifica el tamaño del contenido en el modal*/
+    
 }
 
 .formulario form { /* Para que todo el contenido de los textos este ubicado de forma vertical*/

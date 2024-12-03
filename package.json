@@ -1,0 +1,15 @@
+{
+  "name": "piscatio-ecommerce",
+  "version": "1.0.0",
+  "description": "Piscatio-Ecommerce es una plataforma de comercio electrónico responsiva, desarrollada con HTML, CSS (Bootstrap) y JavaScript. Ofrece una experiencia de compra intuitiva y organizada por categorías destacadas. Ideal para futuras integraciones de pago y gestión de inventario, con diseño enfocado en facilidad de uso y escalabilidad.",
+  "type":"module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sweetalert2": "^11.14.5"
+  }
+}
