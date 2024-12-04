@@ -15,6 +15,10 @@ document.getElementById("registerForm").addEventListener("submit", e => {
     const passwordRegex = /^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$/;
     const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
     const target = document.getElementById("modalRegistro");
+    // Validar usuario completo
+    if(username === "" || surname === "" || email === "" || password === "" || date === ""){
+        
+    }
     // Validar email
     if (!emailRegex.test(email)) {
         callError('El email ingresado no es valido, por favor, revisa tu email.',target);
