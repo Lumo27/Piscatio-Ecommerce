@@ -4,30 +4,10 @@
   box-sizing: border-box;
 }
 
-body {
-  background-color: #f8f9fa;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #385874;
-}
-
-/* Navbar */
-.navbar.bg-dark {
-  background-color: #1A2A4B !important;
-
-}
-
 /* Footer */
 .custom-footer {
   background-color: #1A2A4B;
   color: #ffffff;
-}
-
-/* Estilo para h5 */
-h5 {
-  color: black !important;
-}
-h2{
-  color: rgb(19, 18, 18) !important;
 }
 
 /* Asegurarse de que el contenedor ocupe todo el ancho */

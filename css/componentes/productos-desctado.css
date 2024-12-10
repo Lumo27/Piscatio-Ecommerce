@@ -1,0 +1,88 @@
+.cards-categorias {
+    margin: 0;
+    font-family: "Roboto Condensed";
+    background-color: #152238; /* Azul oscuro */
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}  
+.categories-container {
+    width: 90%;
+    max-width: 1200px;
+}  
+.categories-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    font-weight: 400;
+    text-align: left; /* Si deseas centrar el texto */
+    position: relative; /* Necesario para posicionar el subrayado */
+    padding-bottom: 0.5rem;
+}
+
+.categories-container h2::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px; 
+    width: 103%; 
+    height: 3px; 
+    background-color: white; 
+}
+
+.categories-grid {
+    margin-top: 3rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+  /* Estilo de cada categoría */
+/* Asegurar que el botón esté centrado en las tarjetas */
+.category {
+    position: relative; /* Necesario para posicionar elementos hijos */
+    background-size: cover;
+    background-position: center;
+    height: 225px;
+    border-radius: 0px;
+    overflow: hidden;
+    display: flex; /* Centrar contenido */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+}
+#category-1{
+background-image: url('/assets/imagenes/categorias/Rectangle-10.png'); /* Cambiar por tu imagen */
+}
+#category-2{
+background-image: url('/assets/imagenes/categorias/Rectangle-10.png'); /* Cambiar por tu imagen */
+}
+#category-3{
+background-image: url('/assets/imagenes/categorias/Rectangle-11.png'); /* Cambiar por tu imagen */
+}
+
+#category-4{
+background-image: url('/assets/imagenes/categorias/Rectangle-12.png'); /* Cambiar por tu imagen */
+}
+
+/* Estilo del botón */
+.category-overlay {
+    background-color: rgba(255, 255, 255);
+    color: #1A2A4B; /* Azul oscuro */
+    height: 100px;
+    width: 250px;
+    font-size: 2em;
+    font-family: "Roboto Condensed";
+    font-weight: 700;
+    text-align: center;
+    border: none; /* Elimina bordes del botón */
+    border-radius: 5px; /* Bordes redondeados para el botón */
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover para aumentar tamaño solo del botón */
+.category-overlay:hover {
+    transform: scale(1.1); /* Aumenta el tamaño del botón */
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); /* Añade sombra */
+}

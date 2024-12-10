@@ -1,0 +1,123 @@
+/*Card beneficios*/
+.cards-beneficios {
+    background-color: #E86B38; /* Fondo naranja */
+    color: #152238; /* Texto azul oscuro */
+    padding: 50px 20px;
+    font-family: "Roboto Condensed", sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.beneficios-container {
+    max-width: 1200px;
+    width: 100%;
+    text-align: center;
+}
+
+.beneficios-container h2 {
+    color: white;
+    font-size: 2em;
+    margin-bottom: 30px;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.beneficios-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.beneficio {
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px; /* Ajuste del padding interno */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    height: 350px; /* Menor altura para hacerlo más rectangular */
+    width: 300px;
+}
+
+.beneficio::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 50px;
+    width: 8%;
+    height: 60px;
+    background-color: #152238; /* Rectángulo azul */
+    border-radius: 0px 0px 4px 4px;
+}
+
+.beneficio-icono {
+    position: relative;
+    margin: 20px 0 10px 0; /* Reduce el espacio entre el ícono y el título */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.beneficio-icono img {
+    width: 40px; /* Ajuste del tamaño del ícono */
+    height: 40px;
+}
+
+.linea {
+    position: absolute;
+    background-color: #C7C7C7; /* Gris para las líneas */
+    display: block;
+}
+
+.superior-izquierda {
+    width: 40px;
+    height: 3px;
+    top: 0;
+    left: 0;
+    transform: translate(30px, -20px);
+}
+
+.superior-izquierda::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 40px;
+    background-color: inherit;
+    top: 0;
+    right: 0;
+}
+
+.inferior-derecha {
+    width: 40px;
+    height: 3px;
+    bottom: 0;
+    right: 0;
+    transform: translate(-30px, 20px);
+}
+
+.inferior-derecha::after {
+    content: "";
+    position: absolute;
+    width: 3px;
+    height: 40px;
+    background-color: inherit;
+    bottom: 0;
+    left: 0;
+}
+
+.beneficio h3 {
+    display: block;
+    padding-top: 50px;
+    font-size: 2em; /* Ajuste de tamaño para mantener proporción */
+    color: #152238;
+    margin: 5px 0; /* Menor espacio entre título y párrafo */
+}
+
+.beneficio p {
+    font-size: 1em; /* Ajuste de texto */
+    color: #555;
+    margin: 0;
+}

@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+@import url("componentes/nav-bar.css");
+@import url("componentes/principal.css");
+@import url("componentes/productos-desctado.css");
+@import url("componentes/productos.css");
+@import url("componentes/card-destacado.css");
+@import url("componentes/stylelogin.css");
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Condensed";
+}

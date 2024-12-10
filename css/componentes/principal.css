@@ -1,0 +1,26 @@
+.box-principal{
+    background-image: url('/assets/imagenes/carousel/Rectangle-6.png'); 
+    background-size: contain; 
+    background-position: center; 
+    height: 80vh;
+}
+
+.box-principal h1{
+    font-weight: 500;
+    font-size: 5rem;
+    color: white;
+}
+
+.box-principal p{
+    font-weight: 200;
+    color: white;
+    font-size: 2rem;
+}
+
+.box-principal .btn{
+    padding: 15px 50px 15px 50px;
+    border-radius: 10px;
+    border: 2px solid #1A2A4B;
+    font-size: 20px;
+    font-weight: 300;
+}
