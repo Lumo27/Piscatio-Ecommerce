@@ -11,6 +11,43 @@ body {
     color: #333;
 }
 
+.card {
+    width: 350px; /* Ancho de la tarjeta */
+    height: 450px; /* Alto de la tarjeta */
+    border: 1px solid #ccc; /* Borde opcional */
+    margin: 10px; /* Espaciado entre tarjetas */
+    overflow: hidden; /* Oculta el contenido que se desborda */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.card img {
+    width: 100%; /* La imagen ocupa todo el ancho de la tarjeta */
+    height: 300px; /* Altura de la imagen */
+    object-fit: cover; /* Ajusta la imagen para que cubra el área sin distorsionarse */
+}
+
+.card h3, .card p {
+    margin: 2px 0; /* Espaciado entre el título y la descripción */
+}
+
+.add-to-cart {
+    margin-top: 15px; /* Espacio adicional por encima del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    background-color: #28a745; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    border: none; /* Sin borde */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+}
+
+.add-to-cart:hover {
+    background-color: #218838; /* Color de fondo al pasar el mouse */
+}
+
+
 .header {
     display: flex;
     justify-content: space-between;
