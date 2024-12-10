@@ -36,7 +36,7 @@
               <a class="nav-link active" aria-current="page" href="#">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#cat">Productos</a>
+              <a class="nav-link" href="tienda.html">Tienda</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="aboutus.html">Nosotros</a>
@@ -66,9 +66,9 @@
   </section>
   
   <!-- Carrito de Compras -->
-  <main class="container my-5">
-    <!-- Tabla de productos -->
-    <div class="table-responsive">
+  <!-- <main class="container my-5">
+     <!-- Tabla de productos  -->
+    <!-- <div class="table-responsive">
       <table class="table table-bordered">
         <thead class="table-dark">
           <tr>
@@ -81,12 +81,12 @@
         </thead>
         <tbody id="carrito-items">
           <!-- Los elementos del carrito se llenarán dinámicamente con JavaScript -->
-        </tbody>
+        <!-- </tbody>
       </table>
     </div>
 
     <!-- Resumen del pedido -->
-    <div class="mt-4 d-flex justify-content-between align-items-center">
+    <!-- <div class="mt-4 d-flex justify-content-between align-items-center">
       <div class="me-auto">
         <button class="btn btn-secondary" id="volver-menu" onclick="window.location.href='index.html'">Volver al Menú</button>
       </div>
@@ -95,9 +95,30 @@
         <button class="btn btn-danger" id="vaciar-carrito">Vaciar Carrito</button>
         <button class="btn btn-success" id="finalizar-compra">Finalizar Compra</button>
       </div>
+    </div> -->
+  <!-- </main>  --> -->
+  <main class="container my-5">
+    <h2 class="text-center">Carrito de Compras</h2>
+    <div class="table-responsive">
+        <table class="table table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Acciones</th>
+                </tr>
+            </thead>
+            <tbody id="carrito-items">
+                <!-- Los elementos del carrito se llenarán dinámicamente con JavaScript -->
+            </tbody>
+        </table>
     </div>
-  </main>
-
+    <div class="mt-4 d-flex justify-content-between align-items-center">
+        <h4>Total del Pedido: <span id="total-pedido">$0.00</span></h4>
+        <button class="btn btn-danger" id="vaciar-carrito">Vaciar Carrito</button>
+        <button class="btn btn-success" id="finalizar-compra">Finalizar Compra</button>
+    </div>
+</main>
   
   <!-- FOOTER -->
   <footer class="custom-footer text-white py-5">
