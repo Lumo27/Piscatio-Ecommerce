@@ -1,8 +1,22 @@
 .box-principal{
-    background-image: url('/assets/imagenes/carousel/Rectangle-6.png'); 
-    background-size: contain; 
+    background-color: #E86B38;
+    background-size: cover; 
+    object-fit: contain;
     background-position: center; 
     height: 80vh;
+    position: relative; 
+}
+
+.box-principal::after {
+    content: ""; /* Inserta una imagen de fondo adicional */
+    position: absolute;
+    top: 0; /* Alineado arriba */
+    right: 0; /* Alineado a la derecha */
+    width: 40%; /* Ajusta el tamaño relativo al contenedor */
+    height: 100%; /* Ocupa toda la altura de la sección */
+    background: url('/assets/imagenes/pngtree-watercolor-paint-brush-png-image_13016765.png') no-repeat center;
+    background-size: contain; /* Ajusta el tamaño de la imagen */
+    pointer-events: none; /* Asegura que no interfiera con los clics */
 }
 
 .box-principal h1{

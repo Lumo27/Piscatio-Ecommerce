@@ -8,19 +8,36 @@
     display: flex;
     flex-wrap: wrap;
 }
-h2 {
+.container h2 {
     margin-bottom: 20px;
     font-size: 1.8em;
-    color: #333;
+    color: #ffffff;
 }
 
-p {
+.container button{
+    background: #152238;
+    border: none;
+    transition: 1s;
+}
+
+.container button:hover{
+    background: #243b61;
+
+}
+.container-informacion h4{
+    color: white;
+}
+.container-form{
+    background-color: #E86B38;
+    height: 70vh;
+}
+.info-text{
     margin-bottom: 10px;
-    color: #ff0000;
+    color: #152238;
 }
 .social-icons a {
     margin-right: 10px;
-    color: #555;
+    color: #243b61;
     font-size: 1.5em;
     text-decoration: none;
 }
