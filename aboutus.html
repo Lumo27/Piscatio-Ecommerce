@@ -12,47 +12,52 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <!-- HEADER -->
-    <header>
+    <!-- Header: Navegación y logo -->
+  <header id="header">
     <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin-bottom: 1px;">
-    <div class="container">
-      <!-- LOGO -->
-      <a class="navbar-brand" href="#">
-        <img src="assets/imagenes/Logoproyecto.svg" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
-      </a>
-  
-      <!-- Botón de menú para pantallas pequeñas -->
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-  
-      <!-- Enlaces de navegación -->
-      <div class="collapse navbar-collapse" id="navbarNav" >
-        <ul class="navbar-nav ms-auto" > <!-- `ms-auto` alinea los elementos a la derecha -->
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#cat">Productos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="aboutus.html">Nosotros</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#footer">Contacto</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="login.html">Iniciar Sesión</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="register.html">Registrarse</a>
-          </li>
-        </ul>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <!-- LOGO -->
+        <a class="navbar-brand" href="#">
+          <img src="assets/imagenes/Logoproyecto.svg" alt="Logo" width="100" height="100"
+            class="d-inline-block align-text-top" style="margin-left: 20px;">
+        </a>
+
+        <!-- Botón de menú para pantallas pequeñas -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Enlaces de navegación -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto" style="margin-right: 20px;">
+            <!-- `ms-auto` alinea los elementos a la derecha -->
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cat">Productos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aboutus.html">Nosotros</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="carrito.html"><i class="bi bi-cart2"></i></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" role="button" aria-current="page" id="btn-abrir-modal">
+                <i class="bi bi-person-circle"></i>
+              </a> <!-- LE AGREGUE LA ID -->
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-    </header>
+    </nav>
+  </header>
 
     <section class="mb-4">
         <img src="assets/imagenes/nosotrosv2pinceles.jpg" alt="Galería" class="img-fluid w-100" style="max-height: 500px; object-fit: cover;">
@@ -76,7 +81,7 @@
                 <div class="col">
                     <div class="card d-flex flex-column align-items-center text-center" style="padding: 5px;">
                       <!-- JULIETA -->
-                        <img src="https://media.licdn.com/dms/image/v2/D4D03AQGdl6gTH_5c9w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1720450763206?e=1736985600&v=beta&t=zjw2xakAIYOZz1n-3IHS18lXwYfBMJdSOaN9mau5oSk" alt="Integrante 1" class="card-img-top img-fluid rounded-circle w-50">
+                        <img src="assets/imagenes/profiles-linkedin/profile-linkedin-JM.jpg" alt="Integrante 1" class="card-img-top img-fluid rounded-circle w-50">
                         <div class="card-body">
                             <h5 class="card-title">Julieta Moralez Caviglia</h5>
                             <a href="https://www.linkedin.com/in/julieta-moralez-caviglia" target="_blank" class="btn btn-dark">LinkedIn</a>
@@ -87,7 +92,7 @@
                 <div class="col">
                     <div class="card d-flex flex-column align-items-center text-center" style="padding: 5px;">
                       <!-- MILAGROS -->
-                        <img src="https://media.licdn.com/dms/image/v2/D4D35AQGsnorpzWJw5g/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1726328031174?e=1732032000&v=beta&t=lmidalxQKSuUnoDTKLqPN6r6BlAcApQdJFcKDQY2oC8" alt="Integrante 2" class="card-img-top img-fluid rounded-circle w-50">
+                        <img src="assets/imagenes/profiles-linkedin/profile-linkedin-MS.jpg" alt="Integrante 2" class="card-img-top img-fluid rounded-circle w-50">
                         <div class="card-body">
                             <h5 class="card-title">Milagros Salinas</h5>
                             <a href="https://www.linkedin.com/in/salinas-it/" target="_blank" class="btn btn-dark">LinkedIn</a>
@@ -97,7 +102,7 @@
                 <div class="col">
                     <div class="card d-flex flex-column align-items-center text-center" style="padding: 5px;">
                       <!-- ROCIO  -->
-                        <img src="https://media.licdn.com/dms/image/v2/D4D35AQFeKidXfq3YUg/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1730828766181?e=1732032000&v=beta&t=oymNNkMfDmtbU-7ZMwAguIOJfaPxXWvDzkbXqaJ83io" alt="Integrante 3" class="card-img-top img-fluid rounded-circle w-50">
+                        <img src="assets/imagenes/profiles-linkedin/profile-linkedin-RR.jpg" alt="Integrante 3" class="card-img-top img-fluid rounded-circle w-50">
                         <div class="card-body">
                             <h5 class="card-title">Rocío Rolon</h5>
                             <a href="https://www.linkedin.com/in/r-n-r/" target="_blank" class="btn btn-dark">LinkedIn</a>
@@ -107,7 +112,7 @@
                 <div class="col">
                   <div class="card d-flex flex-column align-items-center text-center" style="padding: 5px;">
                     <!-- LUCAS  -->
-                      <img src="https://media.licdn.com/dms/image/v2/D4D35AQEoVNW9UYriFw/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1728428037839?e=1732114800&v=beta&t=dn1gwy06Xv1FTvGG76xXsUcbj2Hcvx3xU12J0s0zrvk" alt="Integrante 3" class="card-img-top img-fluid rounded-circle w-50">
+                      <img src="assets/imagenes/profiles-linkedin/profile-linkedin-LM.jpg" alt="Integrante 3" class="card-img-top img-fluid rounded-circle w-50">
                       <div class="card-body">
                           <h5 class="card-title">Lucas Motta</h5>
                           <a href="https://www.linkedin.com/in/lumo27/" target="_blank" class="btn btn-dark">LinkedIn</a>
@@ -117,7 +122,7 @@
                 <div class="col">
                   <div class="card d-flex flex-column align-items-center text-center" style="padding: 5px;">
                     <!-- TOMAS  -->
-                      <img src="https://media.licdn.com/dms/image/v2/D4E35AQGA6wO3lgtp0Q/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1728084533894?e=1732114800&v=beta&t=k5BmphDII5kPMdgjLuHW0tOwFeHx-tE_KhV8wHQJ1RY" alt="Integrante 3" class="card-img-top img-fluid rounded-circle w-50">
+                      <img src="assets/imagenes/profiles-linkedin/profile-linkedin-TR.gif" alt="Integrante 3" class="card-img-top img-fluid rounded-circle w-50">
                       <div class="card-body">
                           <h5 class="card-title">Tomas Roetti</h5>
                           <a href="https://www.linkedin.com/in/tomasroetti/" target="_blank" class="btn btn-dark">LinkedIn</a>
@@ -127,7 +132,7 @@
                 <div class="col">
                   <div class="card d-flex flex-column align-items-center text-center" style="padding: 5px;">
                     <!-- ULISES  -->
-                      <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Integrante 3" class="card-img-top img-fluid rounded-circle w-50">
+                      <img src="assets/imagenes/profiles-linkedin/profile-linkedin-UT.jpg" alt="Integrante 3" class="card-img-top img-fluid rounded-circle w-50">
                       <div class="card-body">
                           <h5 class="card-title">Ulises Toro</h5>
                           <a href="https://www.linkedin.com/in/ulises-toro-553b9b181/" target="_blank" class="btn btn-dark">LinkedIn</a>
@@ -137,7 +142,7 @@
                 <div class="col mx-auto">
                   <div class="card d-flex flex-column align-items-center text-center" style="padding: 5px;">
                     <!-- YAMILA  -->
-                      <img src="https://media.licdn.com/dms/image/v2/D4D35AQGa9agplf2ldw/profile-framedphoto-shrink_200_200/profile-framedphoto-shrink_200_200/0/1688692634356?e=1732114800&v=beta&t=uvSw6kaLao22C_GfaKHQc3pjDRU3TRPrmi3zoDd43nE" alt="Integrante 3" class="card-img-top img-fluid rounded-circle w-50">
+                      <img src="assets/imagenes/profiles-linkedin/profile-linkedin-YV.gif" alt="Integrante 3" class="card-img-top img-fluid rounded-circle w-50">
                       <div class="card-body">
                           <h5 class="card-title">Yamila Velazquez</h5>
                           <a href="https://www.linkedin.com/in/yamila-vel%C3%A1zquez/" target="_blank" class="btn btn-dark">LinkedIn</a>
@@ -178,28 +183,29 @@
         </div>
     </div> <!-- End Container -->
 
-    <footer class="custom-footer text-white py-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-4">
-              <h4 id="footer">Sobre Nosotros</h4>
-              <p>Información acerca de nuestra tienda.</p>
-            </div>
-            <div class="col-md-4">
-              <h4>Enlaces</h4>
-              <ul class="list-unstyled">
-                <li><a href="#carousel" class="text-white">Inicio</a></li>
-                <li><a href="#cat" class="text-white">Productos</a></li>
-                <li><a href="#" class="text-white">Contacto</a></li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <h4>Contacto</h4>
-              <p>Email: piscatio@mi-ecommerce.com</p>
-            </div>
-          </div>
+     <!-- FOOTER -->
+  <footer class="custom-footer text-white py-5">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h4 id="footer">Sobre Nosotros</h4>
+          <p>Información acerca de nuestra tienda.</p>
         </div>
-      </footer>
+        <div class="col-md-4">
+          <h4>Enlaces</h4>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="text-white">Inicio</a></li>
+            <li><a href="#cat" class="text-white">Productos</a></li>
+            <li><a href="#footer" class="text-white">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4>Contacto</h4>
+          <p>Email: piscatio@mi-ecommerce.com</p>
+        </div>
+      </div>
+    </div>
+  </footer>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
