@@ -6,6 +6,9 @@
 @import url("componentes/productos.css");
 @import url("componentes/card-destacado.css");
 @import url("componentes/stylelogin.css");
+@import url("componentes/loginregister.css");
+@import url("componentes/contacto.css");
+
 
 body{
     margin: 0;
