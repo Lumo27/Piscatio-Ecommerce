@@ -1,0 +1,52 @@
+.foto-principal img{
+    max-height: 500px; 
+    object-fit: cover;
+}
+
+.card-linkedin{
+    border: 2px solid #1A2A4B;
+}
+
+.card-linkedin h5{
+    color: #1A2A4B;
+}
+
+.card-linkedin .btn{
+    background: #E86B38;
+    color: white;
+    transition: 0.5s;
+
+}
+
+.card-linkedin .btn:hover{
+    background: #e86a38ab;
+    color: white;
+}
+.nosotros h2,p,h5,a{
+    font-family: "Roboto Condensed";
+
+}
+.container-about{
+    background-color: #152238;
+}
+.text-somos h2{
+    color: #1A2A4B;
+    margin-bottom: 20px;
+    font-size: 1.5em;
+    text-align: left;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.text-somos h2::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 25%;
+    height: 3px;
+    background-color: #1A2A4B;
+}
+.text-somos p{
+    color: #152238;
+}
