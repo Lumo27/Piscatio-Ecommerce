@@ -14,24 +14,15 @@
             margin-top: 20px;
         }
     </style>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    
 </head>
 <body>
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Admin Panel</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Dashboard</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Cerrar Sesión</a>
-                    </li>
-                </ul>
-            </div>
         </div>
     </nav>
 
@@ -42,9 +33,30 @@
                 <h5>Listado de Productos</h5>
             </div>
             <div class="card-body">
+                <!-- Filtro de categoría -->
+                <div class="row mb-3 align-items-center">
+                    <label for="filterCategory" class="col-sm-2 col-form-label text-end">Filtrar por:</label>
+                    <div class="col-sm-4">
+                        <select id="filterCategory" class="form-select">
+                            <option value="">Todas las categorías</option>
+                            <option value="1">Pinturas</option>
+                            <option value="2">Esculturas</option>
+                            <option value="3">Dibujo</option>
+                            <option value="4">Arte Digital</option>
+                            <option value="5">Materiales de Arte</option>
+                        </select>
+                    </div>
+                    <div class="col-sm-6 text-end">
+                        <button id="filterButton" class="btn btn-secondary">Aplicar Filtro</button>
+                    </div>
+                </div>
+
+                <!-- Botón para agregar productos -->
                 <button class="btn btn-success mb-3" data-bs-toggle="modal" data-bs-target="#addProductModal">
                     <i class="bi bi-plus-circle"></i> Agregar Producto
                 </button>
+
+                <!-- Tabla de productos -->
                 <table class="table table-striped">
                     <thead>
                         <tr>
@@ -56,19 +68,8 @@
                             <th>Acciones</th>
                         </tr>
                     </thead>
-                    <tbody>
+                    <tbody id="productTableBody">
                         <!-- Aquí se cargarán los productos dinámicamente -->
-                        <tr>
-                            <td>1</td>
-                            <td>Kit de pinceles</td>
-                            <td>Pinceles finos y gruesos para iniciantes</td>
-                            <td>$20.00</td>
-                            <td>20</td>
-                            <td>
-                                <button class="btn btn-warning btn-sm me-2">Editar</button>
-                                <button class="btn btn-danger btn-sm">Eliminar</button>
-                            </td>
-                        </tr>
                     </tbody>
                 </table>
             </div>
@@ -121,5 +122,7 @@
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Script de conexion y consultas -->
+    <script type="module" src="js/admin-abm.js"></script>
 </body>
 </html>
