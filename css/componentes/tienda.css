@@ -11,7 +11,7 @@ body {
     color: #333;
 }
 
-.card {
+.card-tienda  {
     width: 350px; /* Ancho de la tarjeta */
     height: 450px; /* Alto de la tarjeta */
     border: 1px solid #ccc; /* Borde opcional */
@@ -23,13 +23,13 @@ body {
     justify-content: space-between; 
 }
 
-.card img {
+.card-tienda  img {
     width: 100%; /* La imagen ocupa todo el ancho de la tarjeta */
     height: 300px; /* Altura de la imagen */
     object-fit: cover; /* Ajusta la imagen para que cubra el área sin distorsionarse */
 }
 
-.card h3, .card p {
+.card-tienda  h3, .card p {
     margin: 2px 0; /* Espaciado entre el título y la descripción */
 }
 
