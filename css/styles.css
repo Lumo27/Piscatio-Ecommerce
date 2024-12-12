@@ -8,7 +8,59 @@
 .custom-footer {
   background-color: #1A2A4B;
   color: #ffffff;
+  padding: 2rem 1rem; /* Espaciado interno */
 }
+
+.custom-footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.custom-footer a:hover {
+  text-decoration: underline;
+}
+
+.contact-section h2 {
+  color: #ffffff;
+}
+.contact-container{
+  background-color:  #E86B38;
+}
+.contact-section .form-control {
+  border-radius: 5px;
+}
+
+.contact-section .btn {
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+.contact-section .btn:hover {
+  background-color: #212529;
+}
+
+@media (max-width: 768px) {
+  .custom-footer .row > div {
+    text-align: center;
+  }
+
+  .custom-footer h4 {
+    font-size: 1.2rem;
+  }
+
+  .custom-footer p,
+  .custom-footer ul {
+    font-size: 0.9rem;
+  }
+
+  .custom-footer ul {
+    padding-left: 0;
+    list-style: none;
+  }
+
+  .custom-footer ul li {
+    margin-bottom: 5px;
+  }
 
 /* Asegurarse de que el contenedor ocupe todo el ancho */
 .container-fluid {
@@ -48,3 +100,4 @@
 
 
 
+}
