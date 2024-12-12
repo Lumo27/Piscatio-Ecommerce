@@ -1,4 +1,3 @@
-/*Card beneficios*/
 .cards-beneficios {
     background-color: #E86B38; /* Fondo naranja */
     color: #152238; /* Texto azul oscuro */
@@ -22,12 +21,6 @@
     padding-bottom: 0.5rem;
 }
 
-.beneficios-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
 .beneficio {
     background-color: white;
     border-radius: 10px;
@@ -39,7 +32,7 @@
     justify-content: center;
     position: relative;
     height: 350px; /* Menor altura para hacerlo más rectangular */
-    width: 300px;
+    width: 100%;
 }
 
 .beneficio::before {

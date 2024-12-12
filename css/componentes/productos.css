@@ -1,4 +1,3 @@
-/* Estilos generales de la sección */
 .cuadros {
     margin-top: 0px;
     padding: 20px 0;
@@ -17,7 +16,7 @@
     color: #1A2A4B;
     margin-bottom: 20px;
     font-size: 1.5em;
-    text-align: left; /* Ajusta el alineado si prefieres centrado */
+    text-align: left;
     position: relative;
     padding-bottom: 0.5rem;
 }
@@ -26,18 +25,10 @@
     content: "";
     position: absolute;
     left: 0;
-    bottom: -5px; 
-    width: 103%; 
-    height: 3px; 
-    background-color: #1A2A4B; 
-}
-
-/* Estilos de la cuadrícula */
-.cuadros-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
-    gap: 50px;
-    margin-top: 20px;
+    bottom: -5px;
+    width: 103%;
+    height: 3px;
+    background-color: #1A2A4B;
 }
 
 /* Estilo de cada cuadro */
@@ -45,7 +36,7 @@
     background-color: white;
     border-radius: 10px;
     overflow: hidden;
-    width: 90%;
+    width: 100%;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
     color: #152238;
     border: 1px solid black;
@@ -53,7 +44,7 @@
 }
 
 .cuadro:hover {
-    transform: scale(1.05); /* Efecto hover en toda la tarjeta */
+    transform: scale(1.05);
 }
 
 .cuadro img {
@@ -77,7 +68,7 @@
 .cuadro-info p {
     font-size: 0.9em;
     font-weight: 300;
-    color: #555; /* Gris más claro */
+    color: #555;
 }
 
 .cuadro-info button {
