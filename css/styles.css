@@ -45,6 +45,14 @@
   color: white;
 }
 
+.box-principal .btn {
+  margin: 10px 0; /* Agrega margen a los botones para separarlos */
+}
+
+.box-principal .btn:first-child {
+  margin-bottom: 20px; /* Aumenta el margen inferior del primer botón */
+}
+
 @media (max-width: 768px) {
   .custom-footer .row > div {
     text-align: center;
