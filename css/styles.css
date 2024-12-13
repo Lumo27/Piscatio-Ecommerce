@@ -39,28 +39,41 @@
   background-color: #212529;
 }
 
+.box-principal h1 {
+  font-weight: 500;
+  font-size: 3rem; /* Cambia de 5rem a 3rem o un tamaño que consideres adecuado */
+  color: white;
+}
+
 @media (max-width: 768px) {
   .custom-footer .row > div {
     text-align: center;
   }
-
-  .custom-footer h4 {
-    font-size: 1.2rem;
+  .box-principal {
+    padding: 10px; /* Ajusta el padding en móviles */
   }
+  .box-principal h1 {
+    font-size: 2rem; /* Ajusta aún más el tamaño en vista móvil */
+}
+} 
 
-  .custom-footer p,
-  .custom-footer ul {
+.custom-footer h4 {
+  font-size: 1.2rem;
+}
+
+.custom-footer p,
+.custom-footer ul {
     font-size: 0.9rem;
-  }
+}
 
-  .custom-footer ul {
-    padding-left: 0;
-    list-style: none;
-  }
+.custom-footer ul {
+  padding-left: 0;
+  list-style: none;
+}
 
-  .custom-footer ul li {
-    margin-bottom: 5px;
-  }
+.custom-footer ul li {
+  margin-bottom: 5px;
+}
 
 /* Asegurarse de que el contenedor ocupe todo el ancho */
 .container-fluid {
@@ -100,9 +113,3 @@
 
 
 
-}
-@media (max-width: 200px) {
-  .box-principal {
-      padding: 10px; /* Ajusta el padding en móviles */
-  }
-}
