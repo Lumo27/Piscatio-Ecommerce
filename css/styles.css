@@ -101,3 +101,8 @@
 
 
 }
+@media (max-width: 200px) {
+  .box-principal {
+      padding: 10px; /* Ajusta el padding en móviles */
+  }
+}

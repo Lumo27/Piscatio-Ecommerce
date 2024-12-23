@@ -14,7 +14,7 @@
     right: 0; /* Alineado a la derecha */
     width: 40%; /* Ajusta el tamaño relativo al contenedor */
     height: 100%; /* Ocupa toda la altura de la sección */
-    background: url('/assets/imagenes/pngtree-watercolor-paint-brush-png-image_13016765.png') no-repeat center;
+    background: url('/assets/imagenes/fondo-medio.png') no-repeat center;
     background-size: contain; /* Ajusta el tamaño de la imagen */
     pointer-events: none; /* Asegura que no interfiera con los clics */
 }
